@@ -1,0 +1,22 @@
+# Data - never commit raw or cohort-extracted patient data (PhysioNet DUA)
+data/
+*.csv
+*.parquet
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Credentials
+*.env
+.env
+*service-account*.json
+gcp-credentials.json
+
+# Notebook outputs can carry data in cell output - strip before commit if needed
+
+# Editor/workspace files
+*.code-workspace
+.vscode/
