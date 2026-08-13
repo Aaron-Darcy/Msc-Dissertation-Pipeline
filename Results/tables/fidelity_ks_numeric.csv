@@ -1,0 +1,9 @@
+method,column,ks_statistic
+Gaussian Copula,Age at Admission,0.06270589226219447
+Gaussian Copula,Length of Stay (days),0.0539461123797402
+CTGAN,Age at Admission,0.036372739864485526
+CTGAN,Length of Stay (days),0.05475096395013662
+TVAE,Age at Admission,0.034896398757159434
+TVAE,Length of Stay (days),0.027495975742148016
+TabDDPM,Age at Admission,0.1679238572979448
+TabDDPM,Length of Stay (days),0.27323774941039947

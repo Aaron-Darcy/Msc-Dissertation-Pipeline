@@ -1,0 +1,6 @@
+dataset,median_dcr,pct_zero_distance,median_nndr
+Real held-out data (baseline),0.0137,0.0376,0.5719
+Gaussian Copula,0.1919,0.0,0.8993
+CTGAN,0.0552,0.0,0.7503
+TVAE,0.019,0.0001,0.7126
+TabDDPM,1.4153,0.0,0.9992

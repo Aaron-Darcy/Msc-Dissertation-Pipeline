@@ -1,0 +1,5 @@
+method,mean_ks_numeric,mean_tvd_categorical,mean_abs_corr_diff
+Gaussian Copula,0.0583,0.0012,0.0533
+CTGAN,0.0456,0.0878,0.0372
+TVAE,0.0312,0.0465,0.0152
+TabDDPM,0.2206,0.1786,0.0919
