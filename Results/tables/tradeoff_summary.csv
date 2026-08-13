@@ -1,0 +1,5 @@
+method,utility_loss_roc_auc,pct_of_baseline_roc_auc,mean_ks_numeric,mean_tvd_categorical,median_dcr,membership_attack_auc,verdict,train_seconds,generate_seconds,total_seconds,total_minutes
+CTGAN,0.035,94.2874,0.0456,0.0878,0.0552,0.4959,PASS,6724.9,5.5,6730.4,112.2
+Gaussian Copula,0.0373,93.9166,0.0583,0.0012,0.1919,0.4998,PASS,105.5,7.3,112.8,1.9
+TVAE,0.0463,92.4366,0.0312,0.0465,0.019,0.5008,PASS,4223.3,3.1,4226.4,70.4
+TabDDPM,0.0906,85.2131,0.2206,0.1786,1.4153,0.4942,FAIL,9809.1,264.0,10073.1,167.9

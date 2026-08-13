@@ -3,6 +3,9 @@ data/
 *.csv
 *.parquet
 
+# Aggregate result tables are safe to publish: they contain no patient-level data.
+!Results/tables/*.csv
+
 # Python
 .venv/
 __pycache__/

@@ -1,0 +1,5 @@
+method,rows_generated,train_seconds,generate_seconds
+CTGAN,427408,6724.9,5.5
+Gaussian Copula,427408,105.5,7.3
+TVAE,427408,4223.3,3.1
+TabDDPM,427408,9809.1,264.0

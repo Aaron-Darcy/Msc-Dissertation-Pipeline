@@ -1,0 +1,5 @@
+method,membership_attack_auc
+Gaussian Copula,0.4998
+CTGAN,0.4959
+TVAE,0.5008
+TabDDPM,0.4942

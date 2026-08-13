@@ -1,0 +1,6 @@
+dataset,exact_match_rate
+Real held-out data (baseline),0.1531
+Gaussian Copula,0.0
+CTGAN,0.0001
+TVAE,0.0002
+TabDDPM,0.0
