@@ -1,0 +1,4 @@
+config_label,config,mean_roc_auc,sd_roc_auc,mean_ks,mean_tvd,runs
+"per-column: beta LoS, norm age","{""numerical_distributions"": {""length_of_stay_days"": ""beta"", ""age_at_admission"": ""norm""}}",0.5434456912714786,0.0,0.05183000000000002,0.002094999999999998,3
+default=beta,"{""default_distribution"": ""beta""}",0.5428974740056141,0.0,0.07636500000000002,0.0027099999999999854,3
+library defaults,{},0.5428974740056141,0.0,0.07636500000000002,0.0027099999999999854,3

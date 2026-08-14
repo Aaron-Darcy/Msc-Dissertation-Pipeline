@@ -1,9 +1,17 @@
-method,column,ks_statistic
-Gaussian Copula,Age at Admission,0.06270589226219447
-Gaussian Copula,Length of Stay (days),0.0539461123797402
-CTGAN,Age at Admission,0.036372739864485526
-CTGAN,Length of Stay (days),0.05475096395013662
-TVAE,Age at Admission,0.034896398757159434
-TVAE,Length of Stay (days),0.027495975742148016
-TabDDPM,Age at Admission,0.1679238572979448
-TabDDPM,Length of Stay (days),0.27323774941039947
+Dataset,Variable,KS statistic
+Gaussian Copula (default),Age at Admission,0.0670123597766723
+Gaussian Copula (default),Length of Stay (days),0.058054914660913434
+Gaussian Copula (tuned),Age at Admission,0.04173355110751274
+Gaussian Copula (tuned),Length of Stay (days),0.05766881788868246
+CTGAN (default),Age at Admission,0.032631027204612584
+CTGAN (default),Length of Stay (days),0.06336433027419891
+CTGAN (tuned),Age at Admission,0.05645670802192093
+CTGAN (tuned),Length of Stay (days),0.12953429709327624
+TVAE (default),Age at Admission,0.052155823977311555
+TVAE (default),Length of Stay (days),0.023285145336184976
+TVAE (tuned),Age at Admission,0.01610140539225091
+TVAE (tuned),Length of Stay (days),0.01838288631907037
+TabDDPM (default),Age at Admission,0.0223280933371397
+TabDDPM (default),Length of Stay (days),0.027581349419918855
+TabDDPM (tuned),Age at Admission,0.013672505697852388
+TabDDPM (tuned),Length of Stay (days),0.012598454676918891

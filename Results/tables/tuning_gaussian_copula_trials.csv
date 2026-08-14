@@ -1,0 +1,19 @@
+config_label,config,round,val_roc_auc,mean_ks,mean_tvd,loss_improvement_pct,converged,seconds,seed
+"per-column: gamma LoS, truncnorm age","{""numerical_distributions"": {""length_of_stay_days"": ""gamma"", ""age_at_admission"": ""truncnorm""}}",screen,0.5643629340154959,0.47166,0.0054750000000000024,,,5.990027189254761,
+"per-column: gamma LoS, beta age","{""numerical_distributions"": {""length_of_stay_days"": ""gamma"", ""age_at_admission"": ""beta""}}",screen,0.562162291950179,0.5085,0.005344999999999991,,,6.526024341583252,
+library defaults,{},screen,0.5511033288779645,0.08729999999999999,0.004685000000000007,,,6.976447343826294,
+default=beta,"{""default_distribution"": ""beta""}",screen,0.5511033288779645,0.08729999999999999,0.004685000000000007,,,6.967515468597412,
+default=gamma,"{""default_distribution"": ""gamma""}",screen,0.546217156919476,0.47894,0.07852500000000001,,,4.879457950592041,
+default=truncnorm,"{""default_distribution"": ""truncnorm""}",screen,0.5314427279781822,0.15594000000000002,0.009315000000000006,,,2.6239664554595947,
+"per-column: beta LoS, norm age","{""numerical_distributions"": {""length_of_stay_days"": ""beta"", ""age_at_admission"": ""norm""}}",screen,0.5286504407225907,0.05586000000000002,0.005375000000000012,,,6.481387376785278,
+default=norm,"{""default_distribution"": ""norm""}",screen,0.5138980547752593,0.1503,0.080415,,,2.5595383644104004,
+default=uniform,"{""default_distribution"": ""uniform""}",screen,0.48889577991114036,0.51386,0.004425,,,2.3473033905029297,
+library defaults,{},promote,0.5428974740056141,0.07636500000000002,0.002709999999999986,,,23.939271450042725,0.0
+library defaults,{},promote,0.5428974740056141,0.07636500000000002,0.002709999999999986,,,23.957330465316772,1.0
+library defaults,{},promote,0.5428974740056141,0.07636500000000002,0.002709999999999986,,,23.908456087112427,2.0
+default=beta,"{""default_distribution"": ""beta""}",promote,0.5428974740056141,0.07636500000000002,0.002709999999999986,,,23.975985527038574,0.0
+default=beta,"{""default_distribution"": ""beta""}",promote,0.5428974740056141,0.07636500000000002,0.002709999999999986,,,23.90316081047058,1.0
+default=beta,"{""default_distribution"": ""beta""}",promote,0.5428974740056141,0.07636500000000002,0.002709999999999986,,,23.89998483657837,2.0
+"per-column: beta LoS, norm age","{""numerical_distributions"": {""length_of_stay_days"": ""beta"", ""age_at_admission"": ""norm""}}",promote,0.5434456912714786,0.05183000000000002,0.002094999999999998,,,21.994763374328613,0.0
+"per-column: beta LoS, norm age","{""numerical_distributions"": {""length_of_stay_days"": ""beta"", ""age_at_admission"": ""norm""}}",promote,0.5434456912714786,0.05183000000000002,0.002094999999999998,,,22.012166261672974,1.0
+"per-column: beta LoS, norm age","{""numerical_distributions"": {""length_of_stay_days"": ""beta"", ""age_at_admission"": ""norm""}}",promote,0.5434456912714786,0.05183000000000002,0.002094999999999998,,,22.015823364257812,2.0

@@ -1,5 +1,9 @@
-method,exact_match_rate,exact_match_baseline,median_dcr,median_dcr_baseline,membership_attack_auc
-Gaussian Copula,0.0,0.1531,0.1919,0.0137,0.4998
-CTGAN,0.0001,0.1531,0.0552,0.0137,0.4959
-TVAE,0.0002,0.1531,0.019,0.0137,0.5008
-TabDDPM,0.0,0.1531,1.4153,0.0137,0.4942
+Dataset,Share exactly matching a real record,Same figure for real unseen patients,Typical distance to nearest real record,Same figure for real unseen patients,Attack success (0.5 means no leak)
+Gaussian Copula (default),0.0,0.1536,0.1918,0.0137,0.5016
+Gaussian Copula (tuned),0.0,0.1536,0.1371,0.0137,0.5045
+CTGAN (default),0.0004,0.1536,0.0557,0.0137,0.5135
+CTGAN (tuned),0.0017,0.1536,0.0334,0.0137,0.5066
+TVAE (default),0.0001,0.1536,0.0217,0.0137,0.5038
+TVAE (tuned),0.0001,0.1536,0.016,0.0137,0.51
+TabDDPM (default),0.0,0.1536,1.4153,0.0137,0.5011
+TabDDPM (tuned),0.0,0.1536,1.4143,0.0137,0.5035

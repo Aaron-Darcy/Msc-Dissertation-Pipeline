@@ -1,5 +1,9 @@
-method,rows_generated,train_seconds,generate_seconds
-CTGAN,427408,6724.9,5.5
-Gaussian Copula,427408,105.5,7.3
-TVAE,427408,4223.3,3.1
-TabDDPM,427408,9809.1,264.0
+method,rows_generated,train_seconds,generate_seconds,gpu,config,experiment,loss_improvement_pct,converged
+Gaussian Copula,427354,88.9,6.7,NVIDIA A100-SXM4-40GB,library defaults,default,,
+Gaussian Copula,427354,81.6,6.2,NVIDIA A100-SXM4-40GB,"per-column: beta LoS, norm age",tuned,,
+TabDDPM,427354,9403.2,208.7,NVIDIA A100-SXM4-40GB,library defaults,default,4.397108257063154,0.0
+TabDDPM,427354,9439.6,229.7,NVIDIA A100-SXM4-40GB,lr=0.001 + wide 512,tuned,5.481948943455159,0.0
+TVAE,427354,4231.3,3.0,NVIDIA A100-SXM4-40GB,library defaults,default,0.8975766608575415,1.0
+TVAE,427354,4251.0,3.1,NVIDIA A100-SXM4-40GB,wide 256,tuned,1.1924392297671502,0.0
+CTGAN,427354,6889.3,5.6,NVIDIA A100-SXM4-40GB,library defaults,default,5.231934211310898,0.0
+CTGAN,427354,6868.2,5.5,NVIDIA A100-SXM4-40GB,pac=1,tuned,-14.958804422071129,1.0
