@@ -1,0 +1,5 @@
+Dataset,ROC AUC at defaults,ROC AUC when tuned,Change from tuning,Lower end of range,Upper end of range,Tuning helped,Bigger than noise,"Numeric shape error, defaults","Category mix error, defaults","Numeric shape error, tuned","Category mix error, tuned"
+Gaussian Copula,0.5626,0.5691,0.0065,0.0039,0.0091,True,True,0.0625,0.001,0.0497,0.0011
+CTGAN,0.5649,0.6031,0.0382,0.0345,0.0419,True,True,0.048,0.0853,0.093,0.0677
+TVAE,0.5851,0.5788,-0.0062,-0.0094,-0.0028,False,True,0.0377,0.0763,0.0172,0.052
+TabDDPM,0.5423,0.5996,0.0574,0.0535,0.0614,True,True,0.025,0.1862,0.0131,0.1681

@@ -1,5 +1,9 @@
-method,utility_loss_roc_auc,pct_of_baseline_roc_auc,mean_ks_numeric,mean_tvd_categorical,median_dcr,membership_attack_auc,verdict,train_seconds,generate_seconds,total_seconds,total_minutes
-CTGAN,0.035,94.2874,0.0456,0.0878,0.0552,0.4959,PASS,6724.9,5.5,6730.4,112.2
-Gaussian Copula,0.0373,93.9166,0.0583,0.0012,0.1919,0.4998,PASS,105.5,7.3,112.8,1.9
-TVAE,0.0463,92.4366,0.0312,0.0465,0.019,0.5008,PASS,4223.3,3.1,4226.4,70.4
-TabDDPM,0.0906,85.2131,0.2206,0.1786,1.4153,0.4942,FAIL,9809.1,264.0,10073.1,167.9
+Dataset,ROC AUC lost against real data,% of the real-data ROC AUC,PR AUC,PR AUC lost against real data,% of predictive skill kept,Numeric shape error (lower better),Category mix error (lower better),Typical distance to nearest real record,Attack success (0.5 means no leak),Verdict,Training time (seconds),Generation time (seconds),Total time (seconds),Total time (minutes)
+CTGAN (tuned),0.0123,97.998,0.2747,0.007,89.3235,0.093,0.0677,0.0334,0.5066,PASS,6868.2,5.5,6873.7,114.6
+TabDDPM (tuned),0.0158,97.4314,0.2687,0.013,86.3018,0.0131,0.1681,1.4143,0.5035,PASS,9439.6,229.7,9669.3,161.2
+TVAE (default),0.0303,95.0727,0.2593,0.0224,73.7229,0.0377,0.0763,0.0217,0.5038,PASS,4231.3,3.0,4234.3,70.6
+TVAE (tuned),0.0366,94.0537,0.2518,0.0299,68.2886,0.0172,0.052,0.016,0.51,PASS,4251.0,3.1,4254.1,70.9
+Gaussian Copula (tuned),0.0463,92.482,0.2526,0.0291,59.907,0.0497,0.0011,0.1371,0.5045,PASS,81.6,6.2,87.8,1.5
+CTGAN (default),0.0504,91.8026,0.2458,0.0359,56.2834,0.048,0.0853,0.0557,0.5135,PARTIAL,6889.3,5.6,6894.9,114.9
+Gaussian Copula (default),0.0527,91.4286,0.2503,0.0314,54.289,0.0625,0.001,0.1918,0.5016,PARTIAL,88.9,6.7,95.6,1.6
+TabDDPM (default),0.0731,88.1174,0.2276,0.0541,36.6303,0.025,0.1862,1.4153,0.5011,FAIL,9403.2,208.7,9611.9,160.2

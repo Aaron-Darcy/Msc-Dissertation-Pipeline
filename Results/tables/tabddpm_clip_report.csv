@@ -1,3 +1,0 @@
-column,real_min,real_max,n_below_min,n_above_max,pct_clipped
-age_at_admission,18.0,91.0,0,0,0.0
-length_of_stay_days,0.0,515.5416666666666,0,0,0.0

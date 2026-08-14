@@ -1,5 +1,9 @@
-method,tstr_roc_auc,utility_loss_roc_auc,pct_of_baseline_roc_auc,meets_absolute_rule,meets_relative_rule,verdict
-CTGAN,0.5774358436765463,0.03498528432940917,94.28738122681669,True,True,PASS
-Gaussian Copula,0.5751654002319024,0.03725572777405306,93.9166488433608,True,True,PASS
-TVAE,0.5661011970656894,0.046319930940266096,92.43658835039153,True,True,PASS
-TabDDPM,0.5218628483753845,0.09055827963057095,85.2130706323884,False,False,FAIL
+Dataset,ROC AUC,ROC AUC lost against real data,% of the real-data ROC AUC,% of predictive skill kept,Within 0.05 of real,At least 90% of real,Verdict
+CTGAN (tuned),0.6031,0.0123,97.998,89.3235,True,True,PASS
+TabDDPM (tuned),0.5996,0.0158,97.4314,86.3018,True,True,PASS
+TVAE (default),0.5851,0.0303,95.0727,73.7229,True,True,PASS
+TVAE (tuned),0.5788,0.0366,94.0537,68.2886,True,True,PASS
+Gaussian Copula (tuned),0.5691,0.0463,92.482,59.907,True,True,PASS
+CTGAN (default),0.5649,0.0504,91.8026,56.2834,False,True,PARTIAL
+Gaussian Copula (default),0.5626,0.0527,91.4286,54.289,False,True,PARTIAL
+TabDDPM (default),0.5423,0.0731,88.1174,36.6303,False,False,FAIL

@@ -1,4 +1,4 @@
 encoder,final_gloss,final_mloss,numeric_learning,train_seconds,age_at_admission_mean,age_at_admission_sd,length_of_stay_days_mean,length_of_stay_days_sd
-quantile,0.9589,1.0284,False,8.7,54.77,36.45,57.71,55.92
-bayesian_gmm,0.8914,0.2657,True,27.5,51.6,33.99,6.61,6.31
+quantile,0.9419,1.0388,True,7.9,55.43,36.46,70.13,74.36
+bayesian_gmm,0.9136,0.2585,True,26.6,64.35,25.01,3.11,3.57
 passthrough,,,False,,,,,
